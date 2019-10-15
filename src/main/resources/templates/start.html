@@ -1,14 +1,16 @@
 <!DOCTYPE html>
-<html>
+<html xmlns:th="http://thymeleaf.org">
 <head>
 <meta charset="ISO-8859-1">
 <title>PlantPlaces.com</title>
 </head>
 <body>
 <h1>Welcome to PlantPlaces!</h1>
-
+<br/>
+<p th:text= "${specimenDTO}"></p>
 <p>This is the index page of the plant Places website! </p>
 <p>Welcome!</p>
+
 <p>Here you can:</p>
 <ul>
 <li>Learn plant species and genus</li>
